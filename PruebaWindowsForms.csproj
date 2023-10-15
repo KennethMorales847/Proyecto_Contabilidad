@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseMateriaPrima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseMateriaPrima.Designer.cs">
+      <DependentUpon>BaseMateriaPrima.cs</DependentUpon>
+    </Compile>
     <Compile Include="CMenuPrincipal.cs" />
     <Compile Include="ContaPrueba.cs">
       <SubType>Form</SubType>
@@ -74,6 +80,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BaseMateriaPrima.resx">
+      <DependentUpon>BaseMateriaPrima.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ContaPrueba.resx">
       <DependentUpon>ContaPrueba.cs</DependentUpon>
     </EmbeddedResource>
